@@ -7,7 +7,7 @@ function Search({ searchTerm, setSearchTerm }) {
                 <img src="search.svg" alt="search icon" />
                 <input 
                     type="text" 
-                    placeholder="Search through 10,000+ movies and TV shows"
+                    placeholder="Search through 500,000+ movies and TV shows"
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(event.target.value)}
                 />
