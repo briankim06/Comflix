@@ -15,7 +15,7 @@ function MovieCard({ movie: { title, vote_average, poster_path, release_date, or
                     </div>
 
                     <span>●</span>
-                    <p className="lang">{original_language}</p>
+                    <p className="lang">{original_language.toUpperCase()}</p>
                     <span>●</span>
 
                     <p className="year">
